@@ -8,6 +8,9 @@
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
 
+# Broken build Rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Include settings for 16k developer option, if enabled
 ifneq ($(wildcard $(TARGET_KERNEL_DIR)/16kb/),)
 include device/google/zuma/BoardConfig-16k-common.mk
