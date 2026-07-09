@@ -382,8 +382,6 @@ PRODUCT_PACKAGES += \
     TelephonyProviderOverlayProductZuma
 
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayLineageZuma \
-    LineageSdkOverlayZuma \
     SettingsOverlayZuma \
     SimpleDeviceConfigOverlayZuma
 
